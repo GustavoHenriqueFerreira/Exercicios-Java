@@ -1,4 +1,4 @@
-package EstruturasDecicao;
+package EstruturaDecicao;
 
 import java.util.Scanner;
 

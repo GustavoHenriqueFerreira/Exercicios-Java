@@ -1,9 +1,8 @@
-package EstruturasDecicao;
+package EstruturaDecicao;
 
-import java.text.MessageFormat;
 import java.util.Scanner;
 
-public class Exc5NumerosIguais {
+public class Exemplo2 {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in); //entrada de dados
 

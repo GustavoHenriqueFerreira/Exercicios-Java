@@ -1,9 +1,9 @@
-package EstruturasDecicao;
+package EstruturaDecicao;
 
 import java.text.MessageFormat;
 import java.util.Scanner;
 
-public class Exc3PositivoNegativo {
+public class Exc2PositivoNegativo {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in); //entrada de dados
 
