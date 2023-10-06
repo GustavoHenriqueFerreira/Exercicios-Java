@@ -1,4 +1,4 @@
-package EstruturaDecicao;
+package EstruturaDecicao_Aula_1;
 
 import java.util.Scanner;
 

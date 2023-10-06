@@ -1,7 +1,4 @@
-package EstruturaRepeticao;
-
-import java.text.MessageFormat;
-import java.util.Scanner;
+package EstruturaRepeticao_Aula_1;
 
 public class Exc1ArrayParOuImpar {
     public static void main(String[] args) {

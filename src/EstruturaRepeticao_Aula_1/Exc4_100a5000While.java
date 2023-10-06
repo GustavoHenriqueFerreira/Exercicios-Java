@@ -1,4 +1,4 @@
-package EstruturaRepeticao;
+package EstruturaRepeticao_Aula_1;
 
 public class Exc4_100a5000While {
     public static void main(String[] args) {
