@@ -3,7 +3,7 @@ package POO_Aula_2;
 import java.time.LocalDate;
 
 public class PessoaFisica extends Pessoa {
-    private String cpf;
+    public String cpf;
 
     public LocalDate dataNascimento;
 
@@ -19,4 +19,6 @@ public class PessoaFisica extends Pessoa {
             return rendimento * 0.5f;
         }
     }
+
+
 }
