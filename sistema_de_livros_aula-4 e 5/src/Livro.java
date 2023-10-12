@@ -27,7 +27,7 @@ public class Livro {
         System.out.println("Digite a local de nascimento do autor: ");
         String localNasc = leitor.nextLine();
 
-        System.out.println("Digite o título do livro: ");
+        System.out.println("Digite o titulo do livro: ");
         titulo = leitor.nextLine();
 
         System.out.println("Digite o preço do livro: ");
@@ -36,11 +36,11 @@ public class Livro {
         System.out.println("Digite a data de lançamento do livro (dd/mm/aaaa): ");
         dataLancamento = LocalDate.parse(leitor.next(), DateTimeFormatter.ofPattern("dd/MM/yyyy"));
 
-        this.autor = new Autor(nomeAutor, localNasc); // Crie uma instância de Autor
+        autor = new Autor(nomeAutor, localNasc); // Crie uma instância de Autor
 
         if (verificarTempoLancamento(dataLancamento) >= 5) {
             System.out.println("Válido, o livro possui mais de 5 anos de lançamento");
-            this.listaLivros.add(this);
+            listaLivros.add(this);
         } else {
             System.out.println("Inválido! Por favor informe um livro que tenha mais de 5 anos de lançamento");
         }
@@ -51,11 +51,11 @@ public class Livro {
 
         if (listaLivros.size() > 0) {
             for (Livro livro : listaLivros) {
-                System.out.printf("\nTitulo: %s", livro.titulo);
-                System.out.printf("\nPreco: %s", livro.preco);
+                System.out.printf("\nTítulo: %s", livro.titulo);
+                System.out.printf("\nPreço: %s", livro.preco);
                 System.out.printf("\nData de lancamento: %s", livro.dataLancamento);
                 System.out.printf("\nNome autor: %s - %s", livro.autor.nomeAutor, livro.autor.localNasc);
-                System.out.printf("\nTempo de lancamento do livro: %d anos", livro.verificarTempoLancamento(livro.dataLancamento));
+                System.out.printf("\nTempo de lançamento do livro: %d anos", livro.verificarTempoLancamento(livro.dataLancamento));
 
                 System.out.println();
                 System.out.println("Aperte ENTER para continuar");

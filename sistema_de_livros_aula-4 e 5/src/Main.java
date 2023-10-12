@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Livro metodoLivro = new Livro();
 
-        System.out.println("Bem vindo ao sistema de cadastro de pessoas Físicas e Jurídicas");
+        System.out.println("Bem vindo ao sistema de cadastro de Livros");
 
         Scanner leitor = new Scanner(System.in);
 
